@@ -1,0 +1,13 @@
+Source: excito-keyring
+Section: misc
+Priority: important
+Maintainer: Carl Fürstenberg <carl@excito.com>
+Build-Depends: debhelper (>= 7.2)
+Standards-Version: 3.8.4
+
+Package: excito-keyring
+Architecture: all
+Depends: gnupg, ${misc:Depends}
+Description: GnuPG keys of the excito team and archive
+ All packages and archives are signed, and this package contains
+ the public keys used to verify those.
